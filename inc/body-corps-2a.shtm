@@ -1,0 +1,6 @@
+	</div>
+
+   	<!-- Footer begins / Début du pied de page -->
+	<div id="cn-foot"><div id="cn-foot-inner">
+	<!--#if expr="${pg-html5} != ''"--><footer><!--#endif-->
+		<h2<!--#if expr="${is-left-gauche} = ''"--> id="cn-nav"<!--#endif-->><!--#echo encoding="none" var="cn-foot-${pg-lang1}"--></h2>

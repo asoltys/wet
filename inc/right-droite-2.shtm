@@ -1,0 +1,4 @@
+	</div>
+	<!--#if expr="${pg-html5} != ''"--></section><!--#endif-->
+	</div></div>
+	<!-- Supplemental content (right column) ends / Fin du contenu supplémentaire (colonne droite) -->

@@ -1,0 +1,4 @@
+	</div>
+	<!--#if expr="${pg-html5} != ''"--></nav><!--#endif-->
+	</div></div>
+	<!-- Primary navigation (left column) ends / Fin de la navigation principale (colonne gauche) -->

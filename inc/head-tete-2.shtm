@@ -1,0 +1,12 @@
+	<!-- WET scripts/CSS end / Fin des scripts/CSS de la BOEW -->
+
+	<!-- Progressive enhancement begins / Début de l'amélioration progressive -->
+	<script src="/js/lib/jquery.min.js"></script>
+	<script src="/js/pe-ap.js" id="progressive"></script>
+	<script>
+	/* <![CDATA[ */
+		if (typeof params === 'undefined') var params = {};
+		PE.progress(params);
+	/* ]]> */
+	</script>
+	<!-- Progressive enhancement ends / Fin de l'amélioration progressive -->

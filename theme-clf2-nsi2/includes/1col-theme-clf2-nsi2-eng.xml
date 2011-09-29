@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<html>
+	<base>../../includes-1col-base-eng.html</base>
+	<head>
+		<css>
+			<base>inc/css-theme-clf2-nsi2.inc</base>
+			<pfif>inc/css-pf-if-theme-clf2-nsi2.inc</pfif>
+		</css>
+		<params/>
+	</head>
+	<body>
+		<header>inc/header-theme-clf2-nsi2-eng.inc</header>
+		<content>inc/content-theme-clf2-nsi2-eng.inc</content>
+		<leftcol>
+			<prenav/>
+			<nav/>
+			<postnav/>
+		</leftcol>
+		<rightcol>
+			<prenav/>
+			<nav/>
+			<postnav/>
+		</rightcol>
+		<footer>inc/footer-theme-clf2-nsi2-eng.inc</footer>
+	</body>
+</html>

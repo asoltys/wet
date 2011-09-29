@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*!
+ * CLF 2.0 theme v1.2 / Thème de la NSI 2.0 v1.2
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+ * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ */
+#cn-centre-col-inner h1, #cn-in-pd h3 {clip: rect(1px 1px 1px 1px);}
+#cn-lower-msg p {margin-top: 18px;}
+#cn-other-lang-links {margin-top: 10px;}
+#cn-in-links {margin-top: 10px;}
+#cn-sig {margin-bottom: 9px;}

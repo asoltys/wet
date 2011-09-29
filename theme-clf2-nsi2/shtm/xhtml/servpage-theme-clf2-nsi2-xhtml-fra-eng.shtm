@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+	-->
+	<!--#set var="pg-lang1" value="fra"-->
+	<!--#set var="pg-lang2" value="eng"-->
+    <!--#set var="pg-title-fra" value="Message title (h1) - Titre du message (h1) - Page de message du serveur (eng-fra) - Thème NSI 2.0 - XHTML 1.0 Strict - Boîte à outils de l'expérience Web (BOEW)"-->
+    <!--#set var="pg-title-eng" value="Server message page (eng-fra) - CLF 2.0 Theme - XHTML 1.0 Strict - Web Experience Toolkit (WET)"-->
+    <!--#set var="pg-issued" value="2010-08-09"-->
+    <!--#set var="pg-modified" value="YYYY-MM-DD"-->
+    <!--#set var="pg-html5" value=""-->
+	<meta name="robots" content="none" />
+	<!--#include virtual="/theme-clf2-nsi2/inc/servpage/css.shtm"-->
+</head>
+<body>
+	<!--#include virtual="/inc/1col.shtm"-->
+	<!--#include virtual="/theme-clf2-nsi2/inc/servpage/header-entete-fra.shtm"-->
+    <!--#include virtual="/inc/centre-1.shtm"-->
+    
+    <!-- French message begins / Début du message en français -->
+    <div id="cn-left-msg" lang="fr" xml:lang="fr">
+    <h2>Titre du message (h2)</h2>
+    <p>Message message message message message message message message message message message message message message message message message message message message.</p>
+    </div>
+    <!-- French message ends / Fin du message en français -->
+
+    <!-- English message begins / Début du message en anglais -->
+    <div id="cn-right-msg" lang="en" xml:lang="en">
+    <h2>Message title (h2)</h2>
+    <p>Message message message message message message message message message message message message message message message message message message message message.</p>
+    </div>
+    <!-- English message ends / Fin du message en anglais -->
+
+	<!--#include virtual="/inc/centre-2.shtm"-->
+	<!--#include virtual="/theme-clf2-nsi2/inc/servpage/trail-arr-eng.shtm"-->
+</body>
+</html>

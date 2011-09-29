@@ -1,0 +1,6 @@
+	<!--#if expr="${pg-html5} != ''"--></header><!--#endif-->
+	</div></div>
+	<!-- Header ends / Fin de l'en-tête -->
+
+	<div id="cn-cols">
+	<!-- Main content begins / Début du contenu principal --> 

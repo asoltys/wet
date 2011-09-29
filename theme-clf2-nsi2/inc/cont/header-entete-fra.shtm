@@ -1,0 +1,37 @@
+<!--#include virtual="/inc/body-corps-1a.shtm"-->
+<div id="cn-sig"><img src="/<!--#echo encoding='none' var='cn-theme-folder'-->/images/<!--#echo encoding='none' var='cn-sig-image'-->-<!--#echo encoding='none' var='pg-lang1'-->.gif" width="372" height="20" alt="<!--#echo encoding='none' var='cn-sig-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-sig-${pg-lang1}'-->" /></div>
+<div id="cn-wmms"><img src="/<!--#echo encoding='none' var='cn-theme-folder'-->/images/wmms.gif" width="83" height="20" alt="<!--#echo encoding='none' var='cn-wwms-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-wwms-${pg-lang1}'-->" /></div>
+
+<!-- Banner begins / Début de la bannière -->
+<div id="cn-leaf"></div>
+<div id="cn-banner" <!--#if expr="${pg-html5}"-->role="banner"<!--#endif-->>
+    <p id="cn-banner-text"><!--#echo encoding="none" var="cn-banner-text-${pg-lang1}"--></p>
+    <p><!--#echo encoding="none" var="cn-domain-${pg-lang1}"--></p>
+</div>
+<!-- Banner ends / Fin de la bannière -->
+
+<!--#if expr="${pg-html5}"--><nav role="navigation"><!--#endif-->
+	<!-- Common menu bar begins / Début de la barre de menu commune -->
+    <div id="cn-cmb">
+        <h2><!--#echo encoding="none" var="cn-cmb-${pg-lang1}"--></h2>
+        <ul>
+            <li id="cn-cmb1"><a href="<!--#echo encoding='none' var='cn-cmblang-href-${pg-lang1}'-->" lang="fr"<!--#if expr='${pg-html5} = ""'--> xml:lang="fr"<!--#endif--> title="<!--#echo encoding='none' var='cn-cmblang-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmblang-text-${pg-lang1}'--></a></li>
+            <li id="cn-cmb2"><a href="<!--#echo encoding='none' var='cn-cmb2-href-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-cmb2-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmb2-text-${pg-lang1}'--></a></li>
+            <li id="cn-cmb3"><a href="<!--#echo encoding='none' var='cn-cmb3-href-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-cmb3-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmb3-text-${pg-lang1}'--></a></li>
+            <li id="cn-cmb4"><a href="<!--#echo encoding='none' var='cn-cmb4-href-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-cmb4-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmb4-text-${pg-lang1}'--></a></li>
+            <li id="cn-cmb5"><a rel="search" href="<!--#echo encoding='none' var='cn-cmb5-href-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-cmb5-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmb5-text-${pg-lang1}'--></a></li>
+            <li id="cn-cmb6"><a rel="external" href="<!--#echo encoding='none' var='cn-cmb6-href-${pg-lang1}'-->" title="<!--#echo encoding='none' var='cn-cmb6-title-${pg-lang1}'-->"><!--#echo encoding='none' var='cn-cmb6-text-${pg-lang1}'--></a></li>
+        </ul>
+    </div>
+	<!-- Common menu bar ends / Fin de la barre de menu commune -->
+
+	<!-- Breadcrumb begins / Début du fil d'Ariane -->
+    <div id="cn-bcrumb">
+        <h2><!--#echo encoding="none" var="cn-bcrumb-${pg-lang1}"--></h2>
+        <ol>
+            <!--#include virtual="/inc/bt-fa.shtm"-->
+        </ol>
+    </div>
+	<!-- Breadcrumb ends / Fin du fil d'Ariane -->
+<!--#if expr="${pg-html5}"--></nav><!--#endif-->
+<!--#include virtual="/inc/body-corps-1b.shtm"-->

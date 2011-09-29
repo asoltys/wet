@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<html>
+	<base>../../includes-1col-base-fra-eng.html</base>
+	<head>
+		<css>
+			<base>inc/wp-pa-css-theme-clf2-nsi2.inc</base>
+			<pfif>inc/css-pf-if-theme-clf2-nsi2.inc</pfif>
+		</css>
+		<params/>
+	</head>
+	<body>
+		<header>inc/wp-pa-header-theme-clf2-nsi2-fra-eng.inc</header>
+		<content>inc/wp-pa-content-multi-theme-clf2-nsi2-fra-eng.inc</content>
+		<leftcol>
+			<prenav/>
+			<nav/>
+			<postnav/>
+		</leftcol>
+		<rightcol>
+			<prenav/>
+			<nav/>
+			<postnav/>
+		</rightcol>
+		<footer>inc/wp-pa-footer-theme-clf2-nsi2-eng-fra.inc</footer>
+	</body>
+</html>
