@@ -1,0 +1,6 @@
+[submodule "js"]
+	path = js
+	url = https://github.com/asoltys/gcwwwjquery
+[submodule "css"]
+	path = css
+	url = https://github.com/asoltys/gcwwwprescss
