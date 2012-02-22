@@ -4,3 +4,6 @@
 [submodule "css"]
 	path = css
 	url = https://github.com/asoltys/gcwwwprescss
+[submodule "wet-boew-gcwu-fegc"]
+	path = wet-boew-gcwu-fegc
+	url = https://github.com/asoltys/wet-boew-gcwu-fegc.git
